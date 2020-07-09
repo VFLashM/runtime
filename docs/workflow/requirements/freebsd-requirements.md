@@ -33,7 +33,7 @@ apt-get install -y libbz2-dev libz-dev liblzma-dev libarchive-dev libbsd-dev
 ```
 With prerequisites for crossrootfs one can run:
 ```sh
-./eng/common/cross/build-rootfs.sh freebsd11 $(pwd)/rootfs/freebsd
+./eng/common/cross/build-rootfs.sh freebsd11 --rootfsdir $(pwd)/rootfs/freebsd
 ```
 After that, FreeBSD build can be started by running
 ```
